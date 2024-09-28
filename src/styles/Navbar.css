@@ -1,0 +1,71 @@
+/* Navbar.css */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+  background-color: transparent;
+}
+
+.navbar__black {
+  background-color: #111;
+}
+
+.navbar__contents {
+  display: flex;
+  justify-content: space-between; /* Ensure elements are spaced out */
+  align-items: center;
+  padding: 0 20px;
+  height: 70px; /* Adjust the height as needed */
+}
+
+/* Left section for logo */
+.navbar__left {
+  flex: 1; /* Pushes content to the left */
+}
+
+.navbar__logo {
+  width: 100px;
+  object-fit: contain;
+}
+
+/* Center section for links */
+.navbar__center {
+  flex: 2; /* Center the links */
+  display: flex;
+  justify-content: center;
+}
+
+.navbar__center a {
+  margin-right: 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 400;
+  transition: color 0.2s ease-in;
+}
+
+.navbar__center a:hover {
+  color: #e5e5e5;
+}
+
+/* Right section for avatar */
+.navbar__right {
+  flex: 1; /* Pushes content to the right */
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar__avatar {
+  width: 30px;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .navbar__center {
+    display: none; /* Hide links on smaller screens */
+  }
+}

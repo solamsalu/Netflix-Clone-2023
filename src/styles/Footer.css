@@ -1,0 +1,60 @@
+.footer {
+   background-color: #181818;
+   color: #757575;
+   padding: 30px 20px;
+   text-align: center;
+   font-size: 14px;
+ }
+ 
+ .footer__logo img {
+   width: 120px;
+   margin-bottom: 20px;
+ }
+ 
+ .footer__links ul {
+   list-style: none;
+   padding: 0;
+   display: flex;
+   flex-wrap: wrap; /* Ensures the links go to the next row if needed */
+   justify-content: center;
+   margin-bottom: 20px;
+ }
+ 
+ .footer__links ul li {
+   margin: 10px 15px;
+ }
+ 
+ .footer__links ul li a {
+   color: #757575;
+   text-decoration: none;
+   transition: color 0.2s ease-in-out;
+   font-size: 14px; /* Adjust the font size for links */
+ }
+ 
+ .footer__links ul li a:hover {
+   color: #ffffff;
+ }
+ 
+ .footer__socials {
+   display: flex;
+   gap: 15px; /* Space between icons */
+   justify-content: center; /* Center the social icons */
+   margin-bottom: 20px; /* Space below the social icons */
+ }
+ 
+ .footer__socials a {
+   color: white; /* Change icon color */
+   font-size: 24px; /* Increase icon size */
+   transition: color 0.3s; /* Smooth transition for hover */
+ }
+ 
+ .footer__socials a:hover {
+   color: #e50914; /* Change color on hover (Netflix red) */
+ }
+ 
+ .footer__copyright {
+   font-size: 13px; /* Font size for copyright text */
+   color: #757575;
+   margin-top: 20px;
+ }
+ 
