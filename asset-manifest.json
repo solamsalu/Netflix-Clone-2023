@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Netflix-Clone-2023/static/css/main.fe2e3994.css",
-    "main.js": "/Netflix-Clone-2023/static/js/main.8e2eaff2.js",
+    "main.js": "/Netflix-Clone-2023/static/js/main.3c4ae52c.js",
     "reactPlayerYouTube.js": "/Netflix-Clone-2023/static/js/reactPlayerYouTube.5abfbc5f.chunk.js",
     "reactPlayerSoundCloud.js": "/Netflix-Clone-2023/static/js/reactPlayerSoundCloud.4bdecaa2.chunk.js",
     "reactPlayerVimeo.js": "/Netflix-Clone-2023/static/js/reactPlayerVimeo.25c13350.chunk.js",
@@ -23,7 +23,7 @@
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/Netflix-Clone-2023/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/Netflix-Clone-2023/index.html",
     "main.fe2e3994.css.map": "/Netflix-Clone-2023/static/css/main.fe2e3994.css.map",
-    "main.8e2eaff2.js.map": "/Netflix-Clone-2023/static/js/main.8e2eaff2.js.map",
+    "main.3c4ae52c.js.map": "/Netflix-Clone-2023/static/js/main.3c4ae52c.js.map",
     "reactPlayerYouTube.5abfbc5f.chunk.js.map": "/Netflix-Clone-2023/static/js/reactPlayerYouTube.5abfbc5f.chunk.js.map",
     "reactPlayerSoundCloud.4bdecaa2.chunk.js.map": "/Netflix-Clone-2023/static/js/reactPlayerSoundCloud.4bdecaa2.chunk.js.map",
     "reactPlayerVimeo.25c13350.chunk.js.map": "/Netflix-Clone-2023/static/js/reactPlayerVimeo.25c13350.chunk.js.map",
@@ -41,6 +41,6 @@
   },
   "entrypoints": [
     "static/css/main.fe2e3994.css",
-    "static/js/main.8e2eaff2.js"
+    "static/js/main.3c4ae52c.js"
   ]
 }
